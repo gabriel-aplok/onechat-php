@@ -22,6 +22,6 @@ submit.onclick = () => {
 			}
 		}
 	}
-	let data = new data(form);
+	let data = new FormData(form);
 	xhr.send(data);
 }
